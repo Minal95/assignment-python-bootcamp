@@ -1,0 +1,5 @@
+l=int(input("Enter length"))
+b=int(input("Enter bredth"))
+h=int(input("Enter height"))
+V=(l*b*h)
+print("Volume of cuboid=", V)
