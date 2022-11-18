@@ -1,0 +1,31 @@
+.page {
+  display: grid;
+  grid-template-areas:
+    "nav head"
+    "nav main"                                                                                                                                                                                                                                                                                                                                     
+    "foot foot";
+  grid-template-rows: 200px auto 200px;
+  grid-template-columns: 150px 1fr;
+
+  min-height: 100vh; /*You know, you know, why this exists !*/
+}
+
+.page > header {
+  grid-area: head;
+  background-color: #8ca0ff;
+}
+
+.page > nav {
+  grid-area: nav;
+  background-color: #ffa08c;
+}
+
+.page > main {
+  grid-area: main;
+  background-color: #ffff64;
+}
+
+.page > footer {
+  grid-area: foot;
+  background-color: #8cffa0;
+}
