@@ -1,0 +1,62 @@
+.formcontainer{
+    width:450px;
+
+    margin: 0 auto;
+    padding: 40px;
+
+    background-color: rgb(212, 209, 209);
+}
+
+/* .formcontainer > div{
+    margin: 10px;
+} */
+
+input{
+    padding: 10px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: 0;
+}
+.contact,.email,.name,.dob,.gender,.password,.re-password,.button{
+    margin: 10px;
+    
+}
+.email{
+    margin-left: 22px;
+}
+.contact{
+    margin-left: 3px;
+}
+.dob{
+    margin-left: 30px;
+}
+.gender{
+    margin-left: 30px;
+}
+.title{
+    text-align: center;
+   
+    border: 3px solid #1c1d1e;
+}
+h2{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+button{
+    width: 100%;
+    font-weight: 100;
+    outline: none;
+    margin-top: 5%;
+    padding: 10px;
+    background-color: white;
+    border: .3px solid #7b7b7b;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:0.5s;
+}
+
+button:hover{
+    background-color: #1c1d1e;
+    color: white;
+}
